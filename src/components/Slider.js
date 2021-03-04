@@ -22,6 +22,10 @@ export default function Slider() {
 		setPage([page + newDirection, newDirection]);
 	};
 
+	const redirect = () => {
+		window.location.href = 'https://nakaganeku.herokuapp.com/';
+	};
+
 	return (
 		<>
 			<AnimatePresence initial={false} custom={direction}>
@@ -39,6 +43,7 @@ export default function Slider() {
 					drag='x'
 					dragConstraints={{ left: 0, right: 0 }}
 					dragElastic={1}
+					onClick={() => redirect()}
 				/>
 			</AnimatePresence>
 			<motion.button
