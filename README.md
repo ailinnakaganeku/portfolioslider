@@ -1,1 +1,1 @@
-(https://ailinnakaganeku.github.io/portfolioslider/).
+https://ailinnakaganeku.github.io/portfolioslider/
